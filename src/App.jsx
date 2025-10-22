@@ -14,8 +14,8 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Optional homepage */}
-        <Route path="/events" element={<Events />} /> {/* ✅ Explicit /events route */}
+        
+        <Route path="/" element={<Events />} /> {/* ✅ Explicit /events route */}
         <Route path="/addevent" element={<AddEvent />} /> {/* ✅ Lowercase route */}
         <Route path="/events/:id" element={<EventItem />} />
         
