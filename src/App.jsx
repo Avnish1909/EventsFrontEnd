@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import Events from './components/Events/Events';
 import AddEvent from './components/Events/AddEvent';
 import EventItem from './components/Events/EventItem/EventItem';
