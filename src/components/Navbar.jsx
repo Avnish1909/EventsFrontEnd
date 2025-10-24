@@ -8,7 +8,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Links = [
-    { name: "Home", link: "https://thought-labv2.netlify.app/" },
+    { name: "Home", link: "/home" },
     { name: "Utter Your Thoughts", link: "https://thought-labv2.netlify.app/utter-your-thoughts" },
     { name: "Blogs", link: "https://thought-labv2.netlify.app/blogs" },
     { name: "Leaderboard", link: "https://thought-labv2.netlify.app/leaderboard" },
