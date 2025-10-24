@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Events from './components/Events/Events';
 import AddEvent from './components/Events/AddEvent';
 import EventItem from './components/Events/EventItem/EventItem';
+import Homes from './components/home/homes';
 
 const Home = () => <h1>Welcome to Thought Lab!</h1>;
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Events />} /> {/* ✅ Explicit /events route */}
         <Route path="/addevent" element={<AddEvent />} /> {/* ✅ Lowercase route */}
         <Route path="/events/:id" element={<EventItem />} />
+        <Route path="/home" element={<Homes/>} />
         
         {/* Optional: Catch-all for 404s */}
         <Route path="*" element={<h2>404 - Page Not Found</h2>} />
